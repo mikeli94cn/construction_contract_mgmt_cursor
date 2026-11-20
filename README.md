@@ -17,8 +17,8 @@ docker compose up --build
 ```
 
 - Frontend: http://localhost:5173
-- Backend API: http://localhost:8080
-- Swagger UI: http://localhost:8080/swagger-ui.html
+- Backend API: http://localhost:8011
+- Swagger UI: http://localhost:8011/swagger-ui.html
 - MinIO console: http://localhost:9001
 
 Default admin (created on first boot; override with `CCM_ADMIN_PASSWORD`):
@@ -51,7 +51,7 @@ npm install
 npm run dev
 ```
 
-Vite proxies `/api` to `http://localhost:8080`.
+Vite proxies `/api` to `http://localhost:8011`.
 
 ## Tests
 
